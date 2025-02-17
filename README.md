@@ -24,3 +24,17 @@ A basic calculator built using **HTML, CSS, and JavaScript** that performs arith
 1. **Download or Clone the Repository**:  
    ```bash
    git clone https://github.com/yourusername/simple-calculator.git
+2. Navigate to the Project Folder:
+   ```bash
+   cd simple-calculator
+3. Open index.html in a Web Browser
+## Project Structure
+      ```bash
+      /simple-calculator
+      │── index.html   # Main HTML file
+      │── style.css    # Styling for the calculator
+      │── script.js    # JavaScript logic
+      └── README.md    # Project documentation
+## Live Demo
+🔗 Click here to try the calculator
+[Live Demo](https://simple-calculator-omega-mocha.vercel.app/)
