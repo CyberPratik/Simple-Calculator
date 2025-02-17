@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    background-color: #EDF5FC;
+    font-family: "Noto Serif";
+}
+.main{
+    background-color: transparent;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    
+}
+.calcy-container{
+    width: 5in;
+    margin: 50px auto;
+    /* background-color: red; */
+    border-radius: 20px;
+    box-shadow:  0 1.5em 5em 10px rgb(52, 52, 52);
+}
+button:hover{
+    transform: scale(1.1);
+}
+.disp-container{
+    text-align: center;
+    width: 100%;
+    background-color: #272D2D;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#display{
+    margin: 30px;
+    width: 85%;
+    height: 80px;
+    text-align: right;
+    padding: 5px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+.btn-container{
+    place-content: center;
+    background-color: #272D2D;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-bottom: 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+button{
+    background-color: #B8C5D6;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 5rem;
+    font-size: 2em;
+}
+.row{
+    background-color: #272d2d;
+}
+
+@media only screen and (min-width:500px) and (max-width:700px){
+    .main{
+        transform: scale(0.8);
+    }
+    .calcy-container{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .main{
+        transform: scale(0.7);
+    }
+    .calcy-container{
+        max-width: 100%;
+    }
+    button{
+        font-size: 1.5em;
+        margin: 5px;
+    }
+    
+    
+}
+@media only screen and (max-width:450px){
+    .main{
+        transform: scale(0.7);
+    }
+    .calcy-container{
+        max-width: 100%;
+    }
+    button{
+        font-size: 1.2em;
+        margin: 4px;
+        width: 4.5rem;
+    }
+    
+    
+}
